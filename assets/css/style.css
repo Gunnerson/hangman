@@ -1,0 +1,71 @@
+#banner {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    border: 10px solid yellow;
+}
+
+/* #meatOfThePage {
+    position: center;
+    text-align: center;
+} */
+
+#score {
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 400px;
+}
+
+ul {
+    float: left;
+    list-style: none;
+    text-align: left;
+       
+}
+
+
+
+/* this is how I might float my hangman's gallows to the right of the counters
+.wrapper {
+    max-width: 960px;
+    20px smaller, to fit the paddings on the sides
+    padding-right: 10px;
+    padding-left: 10px;
+} */
+
+#hangmanBox {
+    float: right;
+    box-sizing: border-box;
+    width: 600px;
+    height: 400px;
+    padding: 30px;  
+    border: 10px solid red;
+    
+}
+
+
+
+#correctAnswerLetters {
+    clear: both;
+    border: 10px solid orange;
+    text-align: center;
+}
+
+#remainingChances {
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    padding: 30px;  
+    border: 10px solid blue;
+}
+
+#pointsEarned {
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    padding: 30px;  
+    border: 10px solid green;;
+}
+ */ 
